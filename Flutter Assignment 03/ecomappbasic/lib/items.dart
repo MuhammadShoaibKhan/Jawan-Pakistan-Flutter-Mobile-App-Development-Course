@@ -44,6 +44,9 @@ class _itemsState extends State<items> {
              
               children: [
                 const SizedBox(height: 30),
+                Expanded(     
+      child: ListView(
+        children: <Widget>[
               ListTile(
                 leading: ClipRRect(
                // borderRadius: BorderRadius.circular(20.0),//or 15.0
@@ -181,9 +184,90 @@ class _itemsState extends State<items> {
               
               ),
 
+               ListTile(
+                leading: ClipRRect(
+               // borderRadius: BorderRadius.circular(20.0),//or 15.0
+  child: Container(
+    height: 100.0,
+    width: 100.0,
+    
+    //color: Color(0xffFF0E58),
+    child: Image.asset('assets/ipad.jpg',height:200,width:120),
+    
+  
+),            
+              ),
+              title: Text("20 Pieces"),
+              subtitle: Text("Quantity:1 \n 5.0 (23 Reviews)"),
+              isThreeLine: true,
+              
+              trailing: Column(children: [
+                Text("\$90", style: TextStyle(
+                  color: Colors.purple,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 30
+                )),
+              ],),
+              
+              ),
+
+               ListTile(
+                leading: ClipRRect(
+               // borderRadius: BorderRadius.circular(20.0),//or 15.0
+  child: Container(
+    height: 100.0,
+    width: 100.0,
+    
+    //color: Color(0xffFF0E58),
+    child: Image.asset('assets/Macbook Pro.jpg',height:200,width:120),
+    
+  
+),            
+              ),
+              title: Text("20 Pieces"),
+              subtitle: Text("Quantity:1 \n 5.0 (23 Reviews)"),
+              isThreeLine: true,
+              
+              trailing: Column(children: [
+                Text("\$90", style: TextStyle(
+                  color: Colors.purple,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 30
+                )),
+              ],),
+              
+              ),
+
+               ListTile(
+                leading: ClipRRect(
+               // borderRadius: BorderRadius.circular(20.0),//or 15.0
+  child: Container(
+    height: 100.0,
+    width: 100.0,
+    
+    //color: Color(0xffFF0E58),
+    child: Image.asset('assets/samnotebook.jpg',height:200,width:120),
+    
+  
+),            
+              ),
+              title: Text("20 Pieces"),
+              subtitle: Text("Quantity:1 \n 5.0 (23 Reviews)"),
+              isThreeLine: true,
+              
+              trailing: Column(children: [
+                Text("\$90", style: TextStyle(
+                  color: Colors.purple,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 30
+                )),
+              ],),
+              
+              ),
+
 
               ]
-              
+              ))]
           ),
            ),
         

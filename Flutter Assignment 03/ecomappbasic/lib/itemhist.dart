@@ -62,12 +62,16 @@ class _itemhistState extends State<itemhist> {
     ),
     const SizedBox(height: 30),
 
-
+   
     
 
+  ],), 
 
-  
-    ListTile(
+ Expanded(
+      child: ListView(
+        children: <Widget>[
+   
+          ListTile(
       leading: CircleAvatar(
         backgroundImage: AssetImage('assets/iphone12.jpg'),
         radius: 30),
@@ -93,7 +97,7 @@ class _itemhistState extends State<itemhist> {
 
     ),
 
-    ListTile(
+     ListTile(
       leading: CircleAvatar(
         backgroundImage: AssetImage('assets/Note 20 Ultra.jpeg'),
         radius: 30),
@@ -165,17 +169,84 @@ class _itemhistState extends State<itemhist> {
                 
               ],),
 
+    ),
 
-          
+     ListTile(
+      leading: CircleAvatar(
+        backgroundImage: AssetImage('assets/mouse.jpg'),
+        radius: 30),
 
+        title: Text("Gaming Mouse",style: TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 20,
+        )),
+              subtitle: Text("5.0 (23 Reviews)"),
+              
+              
+              trailing: Column(children: [
+                Text("\$10", style: TextStyle(
+                    fontSize: 20,
+                )),
+                
+                
+              ],),
 
     ),
 
-    
+     ListTile(
+      leading: CircleAvatar(
+        backgroundImage: AssetImage('assets/ipad.jpg'),
+        radius: 30),
+
+        title: Text("IPad Pro",style: TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 20,
+        )),
+              subtitle: Text("5.0 (23 Reviews)"),
+              
+              
+              trailing: Column(children: [
+                Text("\$10", style: TextStyle(
+                    fontSize: 20,
+                )),
+                
+                
+              ],),
+
+    ),
+
+     ListTile(
+      leading: CircleAvatar(
+        backgroundImage: AssetImage('assets/samnotebook.jpg'),
+        radius: 30),
+
+        title: Text("Samsung Notebook Ultra",style: TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 20,
+        )),
+              subtitle: Text("5.0 (23 Reviews)"),
+              
+              
+              trailing: Column(children: [
+                Text("\$10", style: TextStyle(
+                    fontSize: 20,
+                )),
+                
+                
+              ],),
+
+    )
+
+
+    ],
+),
+      ),
+
+],),
+     
+   
          
-          
-        ],)    
-        ],)
+        
         
           )
            
