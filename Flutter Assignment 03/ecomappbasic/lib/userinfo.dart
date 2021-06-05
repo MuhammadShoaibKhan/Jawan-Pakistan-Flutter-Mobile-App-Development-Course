@@ -136,6 +136,21 @@ class _userinfoState extends State<userinfo> {
             
          ),
 
+           const SizedBox(height: 10),
+
+                       Padding(
+            padding: const EdgeInsets.only(left: 30),
+             child: Text("Date of Birth", style: TextStyle(fontWeight: FontWeight.bold,
+                    fontSize: 15)),
+            
+         ),
+
+         Padding(
+            padding: const EdgeInsets.only(left: 30),
+             child: Text("October 13, 1999"),
+            
+         ),
+
          
 
 
