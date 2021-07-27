@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "970847809191",
+    "project_id": "up-drive-plus-backup",
+    "storage_bucket": "up-drive-plus-backup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970847809191:android:24d0daf00dee56f7627582",
+        "android_client_info": {
+          "package_name": "com.example.firbaselogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970847809191-cmkrsrsrsgas1eq6hucghqnvuuhmlqeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrryfpNqrvDLTE_Ple9JnwurJEQ58aywM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970847809191-cmkrsrsrsgas1eq6hucghqnvuuhmlqeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
